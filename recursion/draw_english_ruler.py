@@ -1,3 +1,5 @@
+# Define draw functions
+
 def draw_line(tick_length, tick_label=''):
   line = "-" * tick_length
   if tick_label:
@@ -15,3 +17,8 @@ def draw_ruler(num_inches, major_length):
   for j in range(1, num_inches + 1):
     draw_interval(major_length - 1)
     draw_line(major_length, str(j))
+
+# Use cases
+
+print("English ruler with a 1-inch ruler with major tick length 5")
+print(draw_ruler(1, 5))
