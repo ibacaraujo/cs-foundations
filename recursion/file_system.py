@@ -1,3 +1,5 @@
+# Define function
+
 import os
 
 def disk_usage(path):
@@ -9,3 +11,6 @@ def disk_usage(path):
 
     print('{0:<7}'.format(total), path)
     return total
+
+# Use case
+disk_usage('../recursion')
