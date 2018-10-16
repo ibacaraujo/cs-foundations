@@ -1,3 +1,4 @@
+# Define functions to Recursive Algorithms for Computing Powers
 def power(x, n):
     if n == 0:
         return 1
@@ -14,5 +15,6 @@ def power2(x, n):
             result *= x
         return result
 
+# Use cases
 print(power(2,2))
 print(power2(2,2))
