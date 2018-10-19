@@ -7,3 +7,8 @@ to reach a finishing point to end the recursion. We have to begin testing some c
 Then, we procede to think in terms of recur. Here we are going to perform one or more recursive
 calls. This can involves several possible recursive calls. And, look, as we already defined our base
 case, it is great to think in the recursive calls progression towards this base case.
+
+Besides that, another great thing to note here is the parametrization of recursive functions. In
+many cases, we have to redefine how a problem can be solved in order to simplify the subproblems
+definition. This often involves reparameterizing the signature of the function. This approach leads
+to a better solution for recursive algorithms.
